@@ -61,7 +61,7 @@ public  CorsFilter corsFilter()
 public UrlBasedCorsConfigurationSource corsConfigurationSource()
 {
     CorsConfiguration config = new CorsConfiguration();
-    config.setAllowedOrigins(List.of("http://localhost:5173", "http://localhost:5174", "http://localhost:5175"));
+    config.setAllowedOrigins(List.of("https://food-adminpanel.netlify.app", "https://more-quantitynqualityfoods.netlify.app"));
     config.setAllowedMethods(List.of("POST", "PUT", "PATCH", "DELETE", "GET"));
     config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
     config.setAllowCredentials(true);

@@ -64,8 +64,6 @@ public class FoodService implements IFoodService {
 
     }
 
-
-
     @Override
     public List<FoodEntity> allFoodDetails() {
         return repo.findAll();
